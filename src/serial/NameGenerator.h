@@ -1,0 +1,7 @@
+#pragma once
+
+#define PASTE_TOKENS_2(a, b) a##b
+#define PASTE_TOKENS(a, b) PASTE_TOKENS_2(a, b)
+#define NAME_GENERATOR_INTERNAL(a) PASTE_TOKENS(GENERATED_TOKEN_, a)
+#define NAME_GENERATOR() NAME_GENERATOR_INTERNAL(__COUNTER__)
+#define NAME_GENERATOR_META(name) name##_IMPL
