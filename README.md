@@ -17,7 +17,7 @@ This is the low-level layer of my personal game engine, written C++ and GLSL.  T
 - Profiler Scopes for real-time performance monitoring
 - GC-esque memory/object management via std::shared_ptr
 - 3D math via GLM
-- 
+- lots of other magical things I've picked up over the years
 
 ## TODO
 NOTE:  There's some weird formatting that snuck in somehow, probably from me opening this on another macbook pro without my tabs properly set.  Will have to sync this with the current engine version with all that grossness cleaned up.  
