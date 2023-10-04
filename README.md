@@ -17,6 +17,7 @@ This is the low-level layer of my personal game engine, written C++ and GLSL.  T
 - Profiler Scopes for real-time performance monitoring
 - GC-esque memory/object management via std::shared_ptr
 - 3D math via GLM
+- Audio effects and music via SDL and SDL_Mixer
 - lots of other magical things I've picked up over the years
 
 ## TODO
